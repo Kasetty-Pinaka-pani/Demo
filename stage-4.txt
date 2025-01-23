@@ -1,0 +1,142 @@
+Revision of React Js
+=========
+ 
+JavaScript basics
+ 
+ES 6/8  features
+ 
+Virtual DOM & Real DOM
+ 
+Arrow function?
+ 
+JSX
+ 
+React Features
+ 
+What is one way binding?
+ 
+Explain the flow of project execution
+ 
+What is Component ? Types of Components
+ 
+ 
+Explain about Props?
+ 
+React events  & conditionals?
+ 
+React Lists
+ 
+React Forms
+ 
+React Router
+ 
+React HOOKS
+ 
+Project Folder structure
+ 
+==================================
+ 
+DOCKER
+ 
+ 
+2. What are the advantages of using Docker container?
+ 
+Here, are a major advantage of using Docker.
+ 
+	--Offers an efficient and easy initial set up
+	--Allows you to describe your application lifecycle in detail
+	--Simple configuration and interacts with Docker Compose.
+	--Documentation provides every bit of information.
+ 
+3. What are the important features of Docker?
+ 
+ 
+	-Easy Modeling
+	-Version control
+	-Placement/Affinity
+	-Application Agility
+	-Developer Productivity
+	-Operational Efficiencies
+ 
+4. What is Docker image?
+ 
+The Docker image help to create Docker containers. You can create the Docker image with the build command.
+ 
+ 
+5. What is Docker Engine?
+ 
+Docker daemon or Docker engine represents the server. The docker daemon and the clients should be run on the same or remote host, which can communicate through command-line client binary and full RESTful API.
+ 
+ 
+6. Explain Registries
+ 
+There are two types of registry is
+ 
+Public Registry
+Private Registry
+Docker’s public registry is called Docker hub, which allows you to store images privately. In Docker hub, you can store millions of images.
+ 
+ 
+7. What command should you run to see all running container in Docker?
+   $ docker ps
+ 
+8. Write the command to stop the docker container
+ 
+$  docker stop container name
+ 
+ 
+9. What is the command to run the image as a container?
+$  docker run -i -t alpine /bin/bash
+ 
+ 
+10. Explain Docker Swarm?
+ 
+Docker Swarm is native gathering for docker which helps you to a group of Docker hosts into a single and virtual docker host.
+ 
+11. What the states of Docker container?
+ 
+Important states of Docker container are:
+ 
+Running
+Paused
+Restarting
+Exited
+ 
+ 
+12. What is Hypervisor?
+ 
+The hypervisor allows you to create a virtual environment in which the guest virtual machines operate. It controls the guest systems and checks if the resources are allocated to the guests as necessary.
+ 
+13.  List out some important advanced docker commands
+ 
+docker info	---Information Command
+docker pull	---Download an image
+docker stats	---Container information
+Docker images	---List of images downloaded
+ 
+ 
+14. What is the command you need to give to push the new image to Docker registry?
+ 
+docker push image-Name
+ 
+ 
+15.  What is the method for creating a Docker container?
+You can use any of the specific Docker images for creating a Docker container using the below command.
+ 
+docker run -t -i command name
+ 
+ 
+16.  What are the steps for the Docker container life cycle?
+Below are the steps for Docker life cycle:
+ 
+Build
+Pull
+Run
+ 
+17. How can you run multiple containers using a single service?
+By using docker-compose
+ 
+18. What are the three components of Docker Architecture
+--Client
+--Docker-Host
+--Registry
