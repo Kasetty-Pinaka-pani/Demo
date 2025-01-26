@@ -1,0 +1,23 @@
+1. use context, use reducer
+2. headless ui
+3. have to check admin 
+interview questions on react
+docker vm and docker basics
+containering 
+jenkins and CI/CD
+aws hosting and questions
+java coding 
+jquery
+sql 
+html, css, javascript - functions
+4. git commands and definitions
+solid principlals 
+design patterns
+dsa basics
+spring security and jwt 
+micro services
+react hooks
+basics of redux
+
+project explanation
+and intro
