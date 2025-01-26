@@ -1,0 +1,16 @@
+<div className="flex items-center space-x-2">
+            <FaFilter />
+            <label>Filter By Status</label>
+            <select
+              value={statusFilter}
+              onChange={handleFilterChange}
+              className="px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="">All</option>
+              {Object.entries(orderStatus).map(([key, value]) => (
+                <option key={key} value={key}>
+                  {value}
+                </option>
+              ))}
+            </select>
+          </div>
